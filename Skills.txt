@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <style>
+select,input {
+    width: 100%;
+    padding: 5px 5px;
+    border: black;
+    border-radius: 2px;
+    background-color: white;
+}
+div {
+    border-radius: 2px;
+    background-color: #f2f2f2;
+    padding: 5px;
+}
+</style>
+    <body>
+        <form>
+            <h3>Skills</h3>
+            <hr>
+            <div>         
+                       <label>Programing Languages</label>
+                        <select name="t1"  >
+                                <option value="">Please Select</option>
+                                <option value="angular">Angular</option>
+                                <option value="css">CSS</option>
+                                <option value="design">Graphic Design</option>
+                                <option value="ember">Ember</option>
+                                <option value="html">HTML</option>
+                                <option value="ia">Information Architecture</option>
+                                <option value="javascript">Javascript</option>
+                                <option value="mech">Mechanical Engineering</option>
+                                <option value="meteor">Meteor</option>
+                                <option value="node">NodeJS</option>
+                                <option value="plumbing">Plumbing</option>
+                                <option value="python">Python</option>
+                                <option value="rails">Rails</option>
+                                <option value="react">React</option>
+                                <option value="repair">Kitchen Repair</option>
+                                <option value="ruby">Ruby</option>
+                                <option value="ui">UI Design</option>
+                                <option value="ux">User Experience</option>
+                            </select>
+            </div>
+            <div>
+                <label>Database</label>
+                <select name="t2"  >
+                    <option>Select Database</option>
+                     <option>Microsoft Excel</option>
+                      <option>MySQL</option>
+                      <option>Microsoft SQL Server</option>
+                      <option>Oracle RDBMS.</option>
+                       <option>SAP Sybase ASE</option>
+                    </select>
+            </div>
+             <div>
+                <label>Operating System</label>
+                <select name="t3"  >
+                    <option>Selcet Operating System</option>
+                    <option>Windows OS</option>
+                     <option>Mac OS</option>
+                      <option>Linux</option>
+                    </select>
+            </div>
+             <div>
+                <label>Software</label>
+                <br>
+                <input type="text" name="t4"  />
+            </div>
+             <div>
+                <label>Other Skills</label>
+                <br>
+                <input type="text" name="t5" value="" placeholder="ohter skills " />
+                
+            </div>
+             <div>
+                <label>Mobile Development</label>
+                <select name="t6"  >
+                    <option>Please select</option>
+                    <option>Android</option>
+                     <option>Windows</option>
+                      <option>IOS</option>
+                    </select>
+            </div>
+
+            <br>
+            <br>
+            
+            <h3>Industrial Experience</h3> 
+            <hr>
+            <br>
+            <br>
+            <div align="center">
+                <input type="button" value="+Add Experience"  />
+               
+            </div>
+            <br>
+            <br>
+            
+            <h3>Academic Projects</h3> 
+            <hr>
+            <br>
+        </form>
+    </body>
+</html>
